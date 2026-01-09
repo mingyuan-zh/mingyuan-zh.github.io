@@ -1,2 +1,2 @@
-# moshimowang.github.io
+# mingyuan-zh.github.io
 Mingyuan Zhang's Homepage
