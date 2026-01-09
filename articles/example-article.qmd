@@ -1,0 +1,52 @@
+---
+title: "Example Technical Article"
+date: today
+description: "This is an example article demonstrating LaTeX math rendering and code blocks."
+categories:
+  - Machine Learning
+  - Tutorial
+---
+
+## Introduction
+
+This is an example article template. You can use LaTeX math notation inline: $E = mc^2$ or in display mode:
+
+$$
+\mathcal{L}(\theta) = \frac{1}{n}\sum_{i=1}^{n} \ell(f(x_i; \theta), y_i)
+$$
+
+## Code Examples
+
+Here's a Python code example:
+
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+
+def compute_loss(y_pred, y_true):
+    """Compute mean squared error."""
+    return np.mean((y_pred - y_true) ** 2)
+
+# Example usage
+y_pred = np.array([1.0, 2.0, 3.0])
+y_true = np.array([1.1, 1.9, 3.1])
+loss = compute_loss(y_pred, y_true)
+print(f"Loss: {loss:.4f}")
+```
+
+## Mathematical Formulation
+
+For a classification problem with $n$ samples and $k$ classes, the cross-entropy loss is:
+
+$$
+L = -\frac{1}{n}\sum_{i=1}^{n}\sum_{j=1}^{k} y_{ij} \log(\hat{y}_{ij})
+$$
+
+where $y_{ij}$ is the true label and $\hat{y}_{ij}$ is the predicted probability.
+
+## Conclusion
+
+This template demonstrates:
+- LaTeX math rendering
+- Code syntax highlighting
+- Article structure

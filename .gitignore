@@ -1,29 +1,21 @@
-# Vim
-*~
-*.sw[p_]
+# Quarto
+_site/
+.quarto/
+**/*.quarto_ipynb
 
-# Sublime Text
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
 *.sublime-project
 *.sublime-workspace
 
-# Ruby Gem
-*.gem
-.bundle
-Gemfile.lock
-**/vendor/bundle
+# Logs
+log/
+*.log
 
-# Node.js and NPM
-node_modules
-npm-debug.log*
-package-lock.json
-codekit-config.json
-
-# macOS
-.DS_Store
-
-# Jekyll generated files
-.jekyll-cache
-.jekyll-metadata
-.sass-cache
-_asset_bundler_cache
-_site
+/.quarto/
+**/*.quarto_ipynb

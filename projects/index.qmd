@@ -1,0 +1,15 @@
+---
+title: "Projects"
+listing:
+  contents: projects
+  sort: date desc
+  page-size: 10
+  type: default
+  fields:
+    - title
+    - date
+    - description
+    - categories
+---
+
+Projects, implementations, and code repositories showcasing my work.

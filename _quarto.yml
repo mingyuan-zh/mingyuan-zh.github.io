@@ -1,0 +1,139 @@
+project:
+  type: website
+  output-dir: _site
+  resources:
+    - CNAME
+    - papers
+    - assets
+
+website:
+  title: "Mingyuan Zhang's Homepage"
+  site-url: https://mingyuanzhang.com
+  navbar:
+    left:
+      - href: index.html
+        text: Home
+      - href: about.html
+        text: About
+      - href: publications.html
+        text: Publications
+      - menu:
+        - text: Articles
+          href: articles/index.html
+        - text: Research Notes
+          href: research-notes/index.html
+        - text: Projects
+          href: projects/index.html
+    right:
+      - icon: fa-brands fa-linkedin
+        href: https://www.linkedin.com/in/mingyuanzhang
+      - icon: fa-brands fa-github
+        href: https://github.com/mingyuan-zh
+      - icon: fa-solid fa-book
+        href: https://scholar.google.com/citations?user=0mAq5yUAAAAJ
+  page-footer:
+    left: "© Mingyuan Zhang 2025 · All rights reserved"
+    right: "Powered by Quarto"
+  
+  # Disable default Quarto navbar styling for custom HTML pages
+  sidebar:
+    style: "floating"
+
+# Jupyter execution settings
+execute:
+  freeze: auto
+  cache: true
+  warning: false
+  error: false
+  message: false
+
+format:
+  html:
+    theme: default
+    toc: true
+    toc-depth: 3
+    code-fold: show
+    code-tools: true
+    code-link: false
+    source: false
+    math: true
+    math-method: mathjax
+    favicon: assets/images/favicon.jpg
+    include-in-header:
+      - text: |
+          <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+          <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+          <script src="https://kit.fontawesome.com/189a95d526.js" crossorigin="anonymous"></script>
+          <style>
+            html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+            a {
+              color: #2196F3;
+              text-decoration: none;
+            }
+            /* Hide source code link button - comprehensive rules */
+            .quarto-title-meta-contents a[href*=".qmd"],
+            .quarto-title-meta-contents a[href*=".ipynb"],
+            .quarto-title-meta-contents a[href*="source"],
+            .quarto-title-meta-contents a[title*="Source"],
+            .quarto-title-meta-contents a[aria-label*="Source"],
+            a.quarto-navigation-tool[href*="source"],
+            a.quarto-navigation-tool[href*=".qmd"],
+            a.quarto-navigation-tool[href*=".ipynb"],
+            /* Hide in sidebar */
+            .sidebar a[href*=".qmd"],
+            .sidebar a[href*=".ipynb"],
+            .sidebar a[href*="source"],
+            /* Hide in page header */
+            .page-header a[href*=".qmd"],
+            .page-header a[href*=".ipynb"],
+            .page-header a[href*="source"],
+            /* General hide for any link ending in .qmd or .ipynb */
+            a[href$=".qmd"],
+            a[href$=".ipynb"],
+            /* Hide navigation tools */
+            .quarto-navigation-tool,
+            /* More specific selectors */
+            nav[aria-label="Page navigation"] a[href*="source"],
+            .quarto-title-block .quarto-title-meta a[href*="source"],
+            .quarto-title-block .quarto-title-meta a[href*=".qmd"],
+            .quarto-title-block .quarto-title-meta a[href*=".ipynb"],
+            /* Hide any link with Code in text or icon */
+            a[href*=".qmd"]:after,
+            a[href*=".ipynb"]:after,
+            /* Target the specific Code button */
+            .quarto-title-meta-contents > a:last-of-type,
+            /* Hide using attribute selectors */
+            a[data-original-title*="Source"],
+            a[data-bs-toggle*="source"] {
+              display: none !important;
+              visibility: hidden !important;
+              opacity: 0 !important;
+              height: 0 !important;
+              width: 0 !important;
+              overflow: hidden !important;
+            }
+          </style>
+          <script>
+          document.addEventListener('DOMContentLoaded', function() {
+            // Hide all links to .qmd and .ipynb files
+            document.querySelectorAll('a[href$=".qmd"], a[href$=".ipynb"], a[href*="source"]').forEach(function(el) {
+              el.style.display = 'none';
+              el.style.visibility = 'hidden';
+            });
+            // Hide Code button in title metadata
+            document.querySelectorAll('.quarto-title-meta-contents a').forEach(function(el) {
+              if (el.href && (el.href.includes('.qmd') || el.href.includes('.ipynb') || el.href.includes('source'))) {
+                el.style.display = 'none';
+                el.style.visibility = 'hidden';
+              }
+            });
+            // Also check for any element with "Code" text
+            document.querySelectorAll('a').forEach(function(el) {
+              if (el.textContent && el.textContent.trim() === '</>Code') {
+                el.style.display = 'none';
+                el.style.visibility = 'hidden';
+              }
+            });
+          });
+          </script>

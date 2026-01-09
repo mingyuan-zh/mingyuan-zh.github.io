@@ -1,33 +1,17 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Mingyuan Zhang's Page</title>
-<link rel="icon" type="image/x-icon" href="/assets/images/favicon.jpg">
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<!-- Font Awesome -->
-<script src="https://kit.fontawesome.com/189a95d526.js" crossorigin="anonymous"></script>
+---
+title: "Mingyuan Zhang's Page"
+toc: false
+---
 
 <style>
-html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
-/* body, h1, h2, h3, h4, h5, h6 {
-  font-family: "Times New Roman", Times, serif;
-} */
-
-/* link color */
-a {
-  color: #2196F3;
-  text-decoration: none;
+/* Hide Quarto navbar for custom layout */
+.navbar {
+  display: none;
 }
-
 </style>
 
-</head>
-
-<body class="w3-light-grey">
+```{=html}
+<div class="w3-light-grey" style="min-height: 100vh;">
 
 <!-- Page Container -->
 <div class="w3-content w3-margin-top" style="max-width:1400px;">
@@ -40,7 +24,7 @@ a {
     
       <div class="w3-white w3-text-grey w3-card-4">
         <div class="w3-display-container">
-          <img src="/assets/images/myz.png" style="width:100%" alt="Avatar">
+          <img src="assets/images/myz.png" style="width:100%" alt="Avatar">
           <center>
             <h2>Mingyuan (William) Zhang<br>张明远</h2>
           </center>
@@ -58,7 +42,7 @@ a {
           <hr>
           <p><i class="fa fa-file-pdf-o fa-fw w3-margin-right w3-large w3-text-blue"></i><a href="/cv/Zhang_Mingyuan_résumé.pdf" target="_blank">Résumé</a></p>
           <p><i class="fa fa-linkedin fa-fw w3-margin-right w3-large w3-text-blue"></i><a href="https://www.linkedin.com/in/mingyuanzhang" target="_blank">LinkedIn</a></p>
-          <p><i class="fa fa-paperclip fa-fw w3-margin-right w3-large w3-text-blue"></i><a href="/publications/" target="_blank">Publications</a></p>
+          <p><i class="fa fa-paperclip fa-fw w3-margin-right w3-large w3-text-blue"></i><a href="publications.html" target="_blank">Publications</a></p>
           <p><i class="fa fa-book fa-fw w3-margin-right w3-large w3-text-blue"></i><a href="https://scholar.google.com/citations?user=0mAq5yUAAAAJ" target="_blank">Google Scholar</a></p>
           <p><i class="fa fa-book fa-fw w3-margin-right w3-large w3-text-blue"></i><a href="https://www.semanticscholar.org/author/48984942" target="_blank">Semantic Scholar</a></p>
           <p><i class="fa fa-github fa-fw w3-margin-right w3-large w3-text-blue"></i><a href="https://github.com/mingyuan-zh" target="_blank">GitHub</a></p>
@@ -67,26 +51,17 @@ a {
           <p class="w3-large w3-text-theme"><b><i class="fa fa-school fa-fw w3-margin-right w3-large w3-text-blue"></i>Education</b></p>
           <div class="w3-container">
             <h5 class="w3-opacity"><b>University of Pennsylvania</b></h5>
-            <a href="https://home.www.upenn.edu" target="_blank"><img src="/assets/images/upenn.png" alt="UPenn logo" style="float:right;width:80px;height:80px;"></a>
+            <a href="https://home.www.upenn.edu" target="_blank"><img src="assets/images/upenn.png" alt="UPenn logo" style="float:right;width:80px;height:80px;"></a>
             <h6 class="w3-text-black"><i class="fa fa-graduation-cap fa-fw w3-margin-right w3-large w3-text-blue"></i>Ph.D. in Computer and Information Science</h6>
             <h6 class="w3-text-black"><i class="fa fa-calendar fa-fw w3-margin-right w3-large w3-text-blue"></i>2018 - 2024</h6>
           </div>
           <div class="w3-container">
             <h5 class="w3-opacity"><b>University of Michigan</b></h5>
-            <a href="https://www.umich.edu" target="_blank"><img src="/assets/images/um.png" alt="UM logo" style="float:right;width:80px;height:80px;"></a>
+            <a href="https://www.umich.edu" target="_blank"><img src="assets/images/um.png" alt="UM logo" style="float:right;width:80px;height:80px;"></a>
             <h6 class="w3-text-black"><i class="fa fa-graduation-cap fa-fw w3-margin-right w3-large w3-text-blue"></i>B.S. in Honors Mathematics, Honors Statistics, Computer Science, and Data Science</h6>
             <h6 class="w3-text-black"><i class="fa fa-calendar fa-fw w3-margin-right w3-large w3-text-blue"></i>2013 - 2018</h6>
           </div>
           <hr>
-
-          <!-- <p class="w3-large w3-text-theme"><b><i class="fas fa-chalkboard fa-fw w3-margin-right w3-large w3-text-blue"></i>Courses</b></p>
-          <div class="w3-container">
-            <h5 class="w3-opacity"><b>Graduate level:</b></h5>
-            <h6 class="w3-text-black">Real Analysis (A), Probability Theory (A), Discrete Stochastic Processes (A), Numerical Linear Algebra (A+), Combinatorial Theory (A+), Complex Variables (A), Applied Functional Analysis (A), Nonlinear Programming (A+), Statistical Inference (A), Linear Models (A), Analysis of Multivariate and Categorical Data (A), Statistical Learning (A), Time Series Analysis (A-), Machine Learning (A),  Information Theory (A+), Statistical Signal Processing (A).</h6>
-            <h5 class="w3-opacity"><b>Undergraduate level:</b></h5>
-            <h6 class="w3-text-black">Intermediate Microeconomics Theory (A+), Intermediate Macroeconomics Theory (A), Game Theory (A+), Theoretical Statistics (A+), Statistical Computing Methods (A+), Numerical Methods (A+), Programming and Data Structures (A+), Data Structures and Algorithms (A+), Algorithms (A), Randomized Algorithms (A+), Database Management Systems (A), Computer Vision (A), Information Retrieval (A).</h6>
-          </div>
-          <hr> -->
 
           <p class="w3-large w3-text-theme"><b><i class="fas fa-award fa-fw w3-margin-right w3-large w3-text-blue"></i>Honors and Awards</b></p>
           <div class="w3-container">
@@ -144,7 +119,7 @@ a {
             <br>
             Manuscript, 2024.
             <br>
-            <a href="/papers/manuscript-multi-label-noisy-labels.pdf" target="_blank"><span class="w3-tag w3-white w3-border w3-border-black w3-text-black w3-round w3-hover-opacity">Paper</span></a>
+            <a href="papers/manuscript-multi-label-noisy-labels.pdf" target="_blank"><span class="w3-tag w3-white w3-border w3-border-black w3-text-black w3-round w3-hover-opacity">Paper</span></a>
           </p>
           <p class="w3-text-grey">[5] Multiclass Learning from Noisy Labels for Non-decomposable Performance Measures.
             <br>
@@ -152,7 +127,7 @@ a {
             <br>
             In <em>Proceedings of the 27th International Conference on Artificial Intelligence and Statistics</em> (AISTATS), 2024.
             <br>
-            <a href="/papers/aistats2024-noisy-labels-nondecomposable.pdf" target="_blank"><span class="w3-tag w3-white w3-border w3-border-black w3-text-black w3-round w3-hover-opacity">Paper</span></a>
+            <a href="papers/aistats2024-noisy-labels-nondecomposable.pdf" target="_blank"><span class="w3-tag w3-white w3-border w3-border-black w3-text-black w3-round w3-hover-opacity">Paper</span></a>
             <a href="https://proceedings.mlr.press/v238/zhang24e.html" target="_blank"><span class="w3-tag w3-white w3-border w3-border-black w3-text-black w3-round w3-hover-opacity">Link</span></a>
           </p>
           <p class="w3-text-grey">[4] Foreseeing the Benefits of Incidental Supervision.
@@ -163,7 +138,7 @@ a {
             <br>
             <font color="red">Oral paper</font>.
             <br>
-            <a href="/papers/emnlp2021-incidental-supervision.pdf" target="_blank"><span class="w3-tag w3-white w3-border w3-border-black w3-text-black w3-round w3-hover-opacity">Paper</span></a>
+            <a href="papers/emnlp2021-incidental-supervision.pdf" target="_blank"><span class="w3-tag w3-white w3-border w3-border-black w3-text-black w3-round w3-hover-opacity">Paper</span></a>
             <a href="https://aclanthology.org/2021.emnlp-main.134" target="_blank"><span class="w3-tag w3-white w3-border w3-border-black w3-text-black w3-round w3-hover-opacity">Link</span></a>
           </p>
           <p class="w3-text-grey">[3] Learning from Noisy Labels with No Change to the Training Process.
@@ -172,7 +147,7 @@ a {
             <br>
             In <em>Proceedings of the 38th International Conference on Machine Learning</em> (ICML), 2021.
             <br>
-            <a href="/papers/icml2021-multiclass-noisy-labels.pdf" target="_blank"><span class="w3-tag w3-white w3-border w3-border-black w3-text-black w3-round w3-hover-opacity">Paper</span></a>
+            <a href="papers/icml2021-multiclass-noisy-labels.pdf" target="_blank"><span class="w3-tag w3-white w3-border w3-border-black w3-text-black w3-round w3-hover-opacity">Paper</span></a>
             <a href="http://proceedings.mlr.press/v139/zhang21k.html" target="_blank"><span class="w3-tag w3-white w3-border w3-border-black w3-text-black w3-round w3-hover-opacity">Link</span></a>
           </p>
         </div>
@@ -193,7 +168,7 @@ a {
             <br>
             Manuscript, 2024.
             <br>
-            <a href="/papers/manuscript-multi-label-noisy-labels.pdf" target="_blank"><span class="w3-tag w3-white w3-border w3-border-black w3-text-black w3-round w3-hover-opacity">Paper</span></a>
+            <a href="papers/manuscript-multi-label-noisy-labels.pdf" target="_blank"><span class="w3-tag w3-white w3-border w3-border-black w3-text-black w3-round w3-hover-opacity">Paper</span></a>
           </p>
           <p class="w3-text-grey">On the Minimax Regret in Online Ranking with Top-k Feedback.
             <br>
@@ -201,7 +176,7 @@ a {
             <br>
             Preprint, 2023.
             <br>
-            <a href="/papers/preprint-top-k-feedback.pdf" target="_blank"><span class="w3-tag w3-white w3-border w3-border-black w3-text-black w3-round w3-hover-opacity">Paper</span></a>
+            <a href="papers/preprint-top-k-feedback.pdf" target="_blank"><span class="w3-tag w3-white w3-border w3-border-black w3-text-black w3-round w3-hover-opacity">Paper</span></a>
             <a href="https://arxiv.org/abs/2309.02425" target="_blank"><span class="w3-tag w3-white w3-border w3-border-black w3-text-black w3-round w3-hover-opacity">Link</span></a>
           </p>
           <p class="w3-text-grey">[1] Convex Calibrated Surrogates for the Multi-Label F-Measure.
@@ -210,7 +185,7 @@ a {
             <br>
             In <em>Proceedings of the 37th International Conference on Machine Learning</em> (ICML), 2020.
             <br>
-            <a href="/papers/icml2020-multilabel-f-measure.pdf" target="_blank"><span class="w3-tag w3-white w3-border w3-border-black w3-text-black w3-round w3-hover-opacity">Paper</span></a>
+            <a href="papers/icml2020-multilabel-f-measure.pdf" target="_blank"><span class="w3-tag w3-white w3-border w3-border-black w3-text-black w3-round w3-hover-opacity">Paper</span></a>
             <a href="http://proceedings.mlr.press/v119/zhang20w.html" target="_blank"><span class="w3-tag w3-white w3-border w3-border-black w3-text-black w3-round w3-hover-opacity">Link</span></a>
           </p>
         </div>
@@ -224,7 +199,7 @@ a {
             <br>
             In <em>Proceedings of the 27th International Conference on Artificial Intelligence and Statistics</em> (AISTATS), 2024.
             <br>
-            <a href="/papers/aistats2024-noisy-labels-nondecomposable.pdf" target="_blank"><span class="w3-tag w3-white w3-border w3-border-black w3-text-black w3-round w3-hover-opacity">Paper</span></a>
+            <a href="papers/aistats2024-noisy-labels-nondecomposable.pdf" target="_blank"><span class="w3-tag w3-white w3-border w3-border-black w3-text-black w3-round w3-hover-opacity">Paper</span></a>
             <a href="https://proceedings.mlr.press/v238/zhang24e.html" target="_blank"><span class="w3-tag w3-white w3-border w3-border-black w3-text-black w3-round w3-hover-opacity">Link</span></a>
           </p>
         </div>
@@ -238,7 +213,7 @@ a {
             <br>
             In <em>Proceedings of the 27th International Conference on Artificial Intelligence and Statistics</em> (AISTATS), 2024.
             <br>
-            <a href="/papers/aistats2024-noisy-labels-nondecomposable.pdf" target="_blank"><span class="w3-tag w3-white w3-border w3-border-black w3-text-black w3-round w3-hover-opacity">Paper</span></a>
+            <a href="papers/aistats2024-noisy-labels-nondecomposable.pdf" target="_blank"><span class="w3-tag w3-white w3-border w3-border-black w3-text-black w3-round w3-hover-opacity">Paper</span></a>
             <a href="https://proceedings.mlr.press/v238/zhang24e.html" target="_blank"><span class="w3-tag w3-white w3-border w3-border-black w3-text-black w3-round w3-hover-opacity">Link</span></a>
           </p>
           <p class="w3-text-grey">[3] Learning from Noisy Labels with No Change to the Training Process.
@@ -247,7 +222,7 @@ a {
             <br>
             In <em>Proceedings of the 38th International Conference on Machine Learning</em> (ICML), 2021.
             <br>
-            <a href="/papers/icml2021-multiclass-noisy-labels.pdf" target="_blank"><span class="w3-tag w3-white w3-border w3-border-black w3-text-black w3-round w3-hover-opacity">Paper</span></a>
+            <a href="papers/icml2021-multiclass-noisy-labels.pdf" target="_blank"><span class="w3-tag w3-white w3-border w3-border-black w3-text-black w3-round w3-hover-opacity">Paper</span></a>
             <a href="http://proceedings.mlr.press/v139/zhang21k.html" target="_blank"><span class="w3-tag w3-white w3-border w3-border-black w3-text-black w3-round w3-hover-opacity">Link</span></a>
           </p>
           <p class="w3-text-grey">[2] Bayes Consistency vs. H-Consistency: The Interplay between Surrogate Loss Functions and the Scoring Function Class.
@@ -258,38 +233,10 @@ a {
             <br>
             <font color="red">Spotlight paper</font>.
             <br>
-            <a href="/papers/neurips20-bayes-vs-H-consistency.pdf" target="_blank"><span class="w3-tag w3-white w3-border w3-border-black w3-text-black w3-round w3-hover-opacity">Paper</span></a>
+            <a href="papers/neurips20-bayes-vs-H-consistency.pdf" target="_blank"><span class="w3-tag w3-white w3-border w3-border-black w3-text-black w3-round w3-hover-opacity">Paper</span></a>
             <a href="https://papers.nips.cc/paper/2020/hash/c4c28b367e14df88993ad475dedf6b77-Abstract.html" target="_blank"><span class="w3-tag w3-white w3-border w3-border-black w3-text-black w3-round w3-hover-opacity">Link</span></a>
           </p>
         </div>
-      </div>
-
-<!--       <div class="w3-container w3-card w3-white w3-margin-bottom">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fas fa-book fa-fw w3-margin-right w3-xxlarge w3-text-blue"></i>Knowledge</h2>
-        <div class="w3-container">
-          <h5 class="w3-opacity">Certificates</h5>
-          <div class="w3-container">
-            <h6 class="w3-text-black">&#x2022 <b>Generative AI with Large Language Models</b>, <a href="https://www.coursera.org" target="_blank">Coursera</a></h6>
-            <h6 class="w3-text-black">&#x2022 <b>Generative Adversarial Networks (GANs) Specialization</b>, <a href="https://www.coursera.org" target="_blank">Coursera</a></h6>
-            <h6 class="w3-text-black">&#x2022 <b>Practical Data Science on the AWS Cloud Specialization</b>, <a href="https://www.coursera.org" target="_blank">Coursera</a></h6>
-            <h6 class="w3-text-black">&#x2022 <b>Machine Learning Engineering for Production (MLOps) Specialization</b>, <a href="https://www.coursera.org" target="_blank">Coursera</a></h6>
-            <h6 class="w3-text-black">&#x2022 <b>Natural Language Processing Specialization</b>, <a href="https://www.coursera.org" target="_blank">Coursera</a></h6>
-            <h6 class="w3-text-black">&#x2022 <b>TensorFlow: Data and Deployment Specialization</b>, <a href="https://www.coursera.org" target="_blank">Coursera</a></h6>
-            <h6 class="w3-text-black">&#x2022 <b>TensorFlow: Advanced Techniques Specialization</b>, <a href="https://www.coursera.org" target="_blank">Coursera</a></h6>
-            <h6 class="w3-text-black">&#x2022 <b>DeepLearning.AI TensorFlow Developer Specialization</b>, <a href="https://www.coursera.org" target="_blank">Coursera</a></h6>
-            <h6 class="w3-text-black">&#x2022 <b>Deep Learning Specialization</b>, <a href="https://www.coursera.org" target="_blank">Coursera</a></h6>
-            <h6 class="w3-text-black">&#x2022 <b>AI for Medicine Specialization</b>, <a href="https://www.coursera.org" target="_blank">Coursera</a></h6>
-            <h6 class="w3-text-black">&#x2022 <b>AI for Good Specialization</b>, <a href="https://www.coursera.org" target="_blank">Coursera</a></h6>
-            <h6 class="w3-text-black">&#x2022 <b>Machine Learning</b>, <a href="https://www.coursera.org" target="_blank">Coursera</a></h6>
-          </div>
-          <hr>
-          <h5 class="w3-opacity">Other Courses</h5>
-          <div class="w3-container">
-            <h6 class="w3-text-black">&#x2022 <b>Pretraining LLMs</b>, <a href="https://www.deeplearning.ai" target="_blank">DeepLearning.AI</a></h6>
-            <h6 class="w3-text-black">&#x2022 <b>How Diffusion Models Work</b>, <a href="https://www.deeplearning.ai" target="_blank">DeepLearning.AI</a></h6>
-            <h6 class="w3-text-black">&#x2022 <b>ChatGPT Prompt Engineering for Developers</b>, <a href="https://www.deeplearning.ai" target="_blank">DeepLearning.AI</a></h6>
-            <h6 class="w3-text-black">&#x2022 <b>Building Systems with the ChatGPT API</b>, <a href="https://www.deeplearning.ai" target="_blank">DeepLearning.AI</a></h6>
-          </div> -->
       </div>
 
     <!-- End Right Column -->
@@ -300,17 +247,5 @@ a {
   
   <!-- End Page Container -->
 </div>
-
-<footer class="w3-container w3-blue w3-center w3-margin-top">
-  <!-- <p>Find me on social media.</p>
-  <i class="fa fa-facebook-official w3-hover-opacity"></i>
-  <i class="fa fa-instagram w3-hover-opacity"></i>
-  <i class="fa fa-snapchat w3-hover-opacity"></i>
-  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-  <i class="fa fa-twitter w3-hover-opacity"></i>
-  <i class="fa fa-linkedin w3-hover-opacity"></i> -->
-  <p>&copy; Mingyuan Zhang 2025 &middot; All rights reserved &middot; Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank"><font color="white">w3.css</font></a></p>
-</footer>
-
-</body>
-</html>
+</div>
+```

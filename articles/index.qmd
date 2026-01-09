@@ -1,0 +1,15 @@
+---
+title: "Articles"
+listing:
+  contents: articles
+  sort: date desc
+  page-size: 10
+  type: default
+  fields:
+    - title
+    - date
+    - description
+    - categories
+---
+
+Technical articles and blog posts on machine learning, AI, and related topics.
