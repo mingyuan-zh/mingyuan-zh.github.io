@@ -62,6 +62,16 @@ main.content {
   max-width: 1600px !important;
 }
 
+/* Ensure navbar containers are not constrained by the above rule */
+.navbar .container-fluid,
+.navbar .container,
+.quarto-navbar .container-fluid,
+.quarto-navbar .container,
+.navbar-container .container-fluid,
+.navbar-container .container {
+  max-width: 100% !important;
+}
+
 .about-section {
   margin-bottom: 2.5rem;
 }

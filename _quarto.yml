@@ -16,8 +16,6 @@ website:
         text: Home
       - href: publications.html
         text: Publications
-      - href: research-notes/index.html
-        text: Research Notes
       - href: articles/index.html
         text: Articles
       - href: projects/index.html
@@ -33,7 +31,7 @@ website:
         href: https://scholar.google.com/citations?user=0mAq5yUAAAAJ
         aria-label: Google Scholar
   page-footer:
-    left: "© Mingyuan Zhang 2025 · All rights reserved"
+    left: "© Mingyuan Zhang 2026 · All rights reserved"
     right: "Powered by Quarto"
   
   # Disable default Quarto navbar styling for custom HTML pages
@@ -71,6 +69,30 @@ format:
             a {
               color: #2196F3;
               text-decoration: none;
+            }
+            /* Ensure navbar is consistent across all pages, including full-width layout */
+            .navbar,
+            .quarto-navbar,
+            .navbar-container,
+            .navbar-brand,
+            nav.navbar {
+              max-width: 100% !important;
+              width: 100% !important;
+            }
+            /* Ensure navbar container maintains consistent padding and alignment */
+            .page-layout-full .navbar,
+            .page-layout-full .quarto-navbar,
+            .page-layout-full .navbar-container {
+              max-width: 100% !important;
+              width: 100% !important;
+              padding-left: 1rem !important;
+              padding-right: 1rem !important;
+            }
+            /* Ensure navbar inner container is consistent */
+            .navbar > .container-fluid,
+            .quarto-navbar > .container-fluid,
+            .navbar-container > .container-fluid {
+              max-width: 100% !important;
             }
             /* Hide source code link button - comprehensive rules */
             .quarto-title-meta-contents a[href*=".qmd"],

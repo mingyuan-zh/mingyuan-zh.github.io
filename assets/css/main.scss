@@ -6,4 +6,20 @@ a {
   color: #0092ca;
 }
 
+/* Ensure navbar is consistent across all pages */
+.navbar,
+.quarto-navbar,
+.navbar-container {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+/* Ensure navbar container maintains consistent styling regardless of page layout */
+.page-layout-full .navbar,
+.page-layout-full .quarto-navbar,
+.page-layout-full .navbar-container {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
 /* Add any custom styles here */
