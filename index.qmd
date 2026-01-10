@@ -1,5 +1,5 @@
 ---
-title: "Mingyuan Zhang's Page"
+title: ""
 toc: false
 ---
 
