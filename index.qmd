@@ -25,35 +25,28 @@ toc: false
 }
 
 .main-content {
+  max-width: 800px;
+  margin: 2em auto 0;
+}
+
+.info-grid {
   display: grid;
-  grid-template-columns: 1fr 350px;
-  gap: 3em;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5em;
   margin-top: 2em;
 }
 
-@media (max-width: 900px) {
-  .main-content {
-    grid-template-columns: 1fr;
-  }
-}
-
-.sidebar {
-  display: flex;
-  flex-direction: column;
-  gap: 2em;
-}
-
-.sidebar-card {
+.info-card {
   background-color: #f8f9fa;
   padding: 1.5em;
   border-radius: 8px;
-  border-left: 4px solid #2196F3;
+  border-left: 4px solid #2780e3;
 }
 
-.sidebar-card h3 {
+.info-card h3 {
   margin-top: 0;
   font-size: 1.1em;
-  color: #2196F3;
+  color: #2780e3;
   border-bottom: 1px solid #dee2e6;
   padding-bottom: 0.5em;
   margin-bottom: 1em;
@@ -117,81 +110,59 @@ toc: false
   <img src="assets/images/myz.png" alt="Avatar" class="profile-image">
   <h1 style="margin-bottom: 0.3em;">Mingyuan (William) Zhang</h1>
   <h2 style="font-size: 1.2em; color: #666; font-weight: normal; margin-top: 0;">张明远</h2>
-  <p style="color: #555; font-size: 1.05em; max-width: 700px; margin: 1em auto;">
-    I am currently working in the tech industry on machine learning, artificial intelligence, large language models, and recommendation systems. I obtained a Ph.D. in <a href="https://www.cis.upenn.edu/" target="_blank">Computer and Information Science</a> at the <a href="https://www.upenn.edu/" target="_blank">University of Pennsylvania</a>, focusing on Machine Learning and Artificial Intelligence.
+  <p style="color: #555; font-size: 1.1em; max-width: 700px; margin: 1.5em auto; line-height: 1.7;">
+    Ph.D. in Computer Science from the <a href="https://www.upenn.edu/" target="_blank">University of Pennsylvania</a>. 
+    Currently working on machine learning, AI, and large language models in the tech industry.
   </p>
 </div>
 
 <div class="main-content">
 
-<!-- Main Content Column -->
-<div>
-
 <div class="quick-links">
   <strong style="font-size: 1.1em;">Quick Links</strong><br>
   <a href="/cv/Zhang_Mingyuan_résumé.pdf" target="_blank">📄 Résumé</a>
-  <a href="https://www.linkedin.com/in/mingyuanzhang" target="_blank">💼 LinkedIn</a>
   <a href="publications.html">📚 Publications</a>
+  <a href="about.html">👤 About</a>
   <a href="https://scholar.google.com/citations?user=0mAq5yUAAAAJ" target="_blank">🔬 Scholar</a>
   <a href="https://github.com/mingyuan-zh" target="_blank">💻 GitHub</a>
 </div>
 
-## Research Interests
+## Research Focus
 
 <div class="research-interests">
-My research focuses on <strong>statistical machine learning</strong> for complex classification problems, with particular emphasis on:
+I work on <strong>statistical machine learning</strong> for complex classification problems, including learning from noisy labels, multi-label classification, and optimizing non-decomposable performance measures.
 
-- **Learning from Noisy Labels**: Designing algorithms that can learn good classifiers despite noisy training data, for both multiclass and multi-label learning problems
-- **Multi-Label Classification & Label Ranking**: Developing effective learning algorithms for multi-label losses and various label ranking metrics
-- **Non-decomposable Performance Measures**: Optimizing complex performance measures (F1, AUC, etc.) that cannot be decomposed per example
-- **Weakly Supervised Learning**: Learning from missing or partial labels, and transfer learning
+Learn more about my research on the [About](about.html) page, or browse my [Publications](publications.html).
 </div>
 
-For a complete list of publications, please see the [Publications](publications.html) page.
+<div class="info-grid">
 
+<div class="info-card">
+<h3>📍 Current</h3>
+<p style="margin: 0; color: #555;">
+Working in tech industry on ML/AI, LLMs, and recommendation systems.
+</p>
 </div>
 
-<!-- Sidebar Column -->
-<div class="sidebar">
-
-<div class="sidebar-card">
+<div class="info-card">
 <h3>🎓 Education</h3>
-<div class="education-item">
-<strong>University of Pennsylvania</strong><br>
-Ph.D. in Computer and Information Science<br>
-<em>2018 - 2024</em>
-</div>
-<div class="education-item">
-<strong>University of Michigan</strong><br>
-B.S. in Honors Mathematics, Honors Statistics, Computer Science, and Data Science<br>
-<em>2013 - 2018</em>
-</div>
+<p style="margin: 0; color: #555;">
+<strong>Ph.D.</strong> in Computer Science<br>
+University of Pennsylvania, 2024
+</p>
+<p style="margin-top: 0.8em; margin-bottom: 0; color: #555;">
+<strong>B.S.</strong> in Mathematics, Statistics, CS, Data Science<br>
+University of Michigan, 2018
+</p>
 </div>
 
-<div class="sidebar-card">
-<h3>🏆 Honors & Awards</h3>
-<div class="honor-item"><strong>Top Reviewer</strong>, NeurIPS, 2024</div>
-<div class="honor-item"><strong>Outstanding Achievement in Mathematics Awards</strong>, University of Michigan, 2017, 2018</div>
-<div class="honor-item"><strong>James B. Angell Scholar</strong>, University of Michigan, 2015, 2017, 2018</div>
-<div class="honor-item"><strong>William J. Branstrom Freshman Prize</strong>, University of Michigan, 2014</div>
-<div class="honor-item"><strong>University Honors</strong>, University of Michigan, 2013 - 2018</div>
-</div>
-
-<div class="sidebar-card">
-<h3>👥 Professional Service</h3>
-<div class="service-item"><strong>Journals:</strong> JMLR, IEEE TPAMI</div>
-<div class="service-item"><strong>Conferences:</strong> NeurIPS (2021-2024), ICLR (2022-2023), AISTATS (2024)</div>
-</div>
-
-<div class="sidebar-card">
-<h3>📖 Teaching</h3>
-<div class="teaching-item">
-<strong>UPenn:</strong> Head TA for CIS 520 (Graduate Machine Learning)<br>
-<em>Spring 2020, 2021, 2022</em>
-</div>
-<div class="teaching-item">
-<strong>UMich:</strong> Grader (2015-2018), Tutor for MATH 217 (2015)
-</div>
+<div class="info-card">
+<h3>🔗 Connect</h3>
+<p style="margin: 0;">
+<a href="https://www.linkedin.com/in/mingyuanzhang" target="_blank">LinkedIn</a> · 
+<a href="https://github.com/mingyuan-zh" target="_blank">GitHub</a> · 
+<a href="https://scholar.google.com/citations?user=0mAq5yUAAAAJ" target="_blank">Scholar</a>
+</p>
 </div>
 
 </div>

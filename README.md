@@ -102,15 +102,11 @@ quarto render
 ├── about.qmd              # About page
 ├── publications.qmd       # Publications listing
 ├── articles/              # Technical articles
-│   ├── index.qmd
-│   ├── example-article.qmd
-│   └── example-notebook.ipynb
+│   └── index.qmd
 ├── research-notes/        # Research notes
-│   ├── index.qmd
-│   └── example-note.qmd
+│   └── index.qmd
 ├── projects/             # Projects
-│   ├── index.qmd
-│   └── example-project.qmd
+│   └── index.qmd
 ├── _quarto.yml           # Quarto configuration
 ├── requirements.txt      # Python dependencies
 ├── assets/               # Images, CSS, and static assets

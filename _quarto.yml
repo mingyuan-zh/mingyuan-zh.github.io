@@ -18,20 +18,22 @@ website:
         text: About
       - href: publications.html
         text: Publications
-      - menu:
-        - text: Articles
-          href: articles/index.html
-        - text: Research Notes
-          href: research-notes/index.html
-        - text: Projects
-          href: projects/index.html
+      - href: research-notes/index.html
+        text: Research Notes
+      - href: articles/index.html
+        text: Articles
+      - href: projects/index.html
+        text: Projects
     right:
       - icon: fa-brands fa-linkedin
         href: https://www.linkedin.com/in/mingyuanzhang
+        aria-label: LinkedIn
       - icon: fa-brands fa-github
         href: https://github.com/mingyuan-zh
+        aria-label: GitHub
       - icon: fa-solid fa-book
         href: https://scholar.google.com/citations?user=0mAq5yUAAAAJ
+        aria-label: Google Scholar
   page-footer:
     left: "© Mingyuan Zhang 2025 · All rights reserved"
     right: "Powered by Quarto"
@@ -50,7 +52,7 @@ execute:
 
 format:
   html:
-    theme: default
+    theme: flatly
     toc: true
     toc-depth: 3
     code-fold: show
