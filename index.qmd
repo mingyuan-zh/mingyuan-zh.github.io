@@ -135,37 +135,6 @@ I work on <strong>statistical machine learning</strong> for complex classificati
 Learn more about my research on the [About](about.html) page, or browse my [Publications](publications.html).
 </div>
 
-<div class="info-grid">
-
-<div class="info-card">
-<h3>📍 Current</h3>
-<p style="margin: 0; color: #555;">
-Working in tech industry on ML/AI, LLMs, and recommendation systems.
-</p>
-</div>
-
-<div class="info-card">
-<h3>🎓 Education</h3>
-<p style="margin: 0; color: #555;">
-<strong>Ph.D.</strong> in Computer Science<br>
-University of Pennsylvania, 2024
-</p>
-<p style="margin-top: 0.8em; margin-bottom: 0; color: #555;">
-<strong>B.S.</strong> in Mathematics, Statistics, CS, Data Science<br>
-University of Michigan, 2018
-</p>
-</div>
-
-<div class="info-card">
-<h3>🔗 Connect</h3>
-<p style="margin: 0;">
-<a href="https://www.linkedin.com/in/mingyuanzhang" target="_blank">LinkedIn</a> · 
-<a href="https://github.com/mingyuan-zh" target="_blank">GitHub</a> · 
-<a href="https://scholar.google.com/citations?user=0mAq5yUAAAAJ" target="_blank">Scholar</a>
-</p>
-</div>
-
-</div>
 
 </div>
 
