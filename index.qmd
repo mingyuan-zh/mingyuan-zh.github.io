@@ -6,15 +6,17 @@ about:
   image-width: 200px
   image-shape: round
   links:
-    - icon: github
-      text: GitHub
-      href: https://github.com/mingyuan-zh
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/mingyuanzhang
-    - icon: google-scholar
+    - icon: mortarboard-fill
       text: Google Scholar
       href: https://scholar.google.com/citations?user=0mAq5yUAAAAJ
+    - icon: github
+      text: GitHub
+      href: https://github.com/mingyuan-zh
+    bio:
+      test
 toc: false
 page-layout: full
 ---

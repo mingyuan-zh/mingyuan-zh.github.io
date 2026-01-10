@@ -106,13 +106,10 @@ format:
             .quarto-title-meta-contents > a:last-of-type,
             /* Hide using attribute selectors */
             a[data-original-title*="Source"],
-            a[data-bs-toggle*="source"] {
+            a[data-bs-toggle*="source"],
+            /* Hide the Code tools button */
+            button#quarto-code-tools-source {
               display: none !important;
-              visibility: hidden !important;
-              opacity: 0 !important;
-              height: 0 !important;
-              width: 0 !important;
-              overflow: hidden !important;
             }
           </style>
           <script>
@@ -135,6 +132,10 @@ format:
                 el.style.display = 'none';
                 el.style.visibility = 'hidden';
               }
+            });
+            // Hide the Code tools button
+            document.querySelectorAll('button#quarto-code-tools-source').forEach(function(el) {
+              el.style.display = 'none';
             });
           });
           </script>
