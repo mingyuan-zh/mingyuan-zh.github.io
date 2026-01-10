@@ -1,157 +1,220 @@
 ---
-title: ""
+title: "Mingyuan (William) Zhang"
+image: assets/images/myz.png
+about:
+  template: trestles
+  image-width: 200px
+  image-shape: round
+  links:
+    - icon: github
+      text: GitHub
+      href: https://github.com/mingyuan-zh
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/mingyuanzhang
+    - icon: google-scholar
+      text: Google Scholar
+      href: https://scholar.google.com/citations?user=0mAq5yUAAAAJ
 toc: false
+page-layout: full
 ---
 
 <style>
-/* Custom styles for homepage layout */
-.homepage-container {
-  max-width: 1200px;
+/* Custom styles for academic template layout */
+.about-content {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* Override Quarto template constraints for wider display */
+.quarto-about-trestles .about-contents {
+  max-width: 100% !important;
+}
+
+.quarto-about-trestles .about-entity {
+  max-width: 100% !important;
+}
+
+.quarto-about-trestles .about-body {
+  max-width: 100% !important;
+}
+
+/* Ensure the main content container is wider */
+.quarto-title-block {
+  max-width: 1600px !important;
   margin: 0 auto;
 }
 
-.profile-header {
-  text-align: center;
-  margin-bottom: 3em;
-  padding-bottom: 2em;
-  border-bottom: 2px solid #e0e0e0;
+main.content {
+  max-width: 1600px !important;
 }
 
-.profile-image {
-  width: 200px;
-  border-radius: 10px;
-  margin-bottom: 1em;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+/* Make the page layout wider */
+.page-layout-custom,
+.page-columns.page-columns-border {
+  max-width: 1600px !important;
 }
 
-.main-content {
-  max-width: 800px;
-  margin: 2em auto 0;
+/* Override any container constraints */
+.container-fluid,
+.container {
+  max-width: 1600px !important;
 }
 
-.info-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1.5em;
-  margin-top: 2em;
+.about-section {
+  margin-bottom: 2.5rem;
 }
 
-.info-card {
+.about-section h2 {
+  font-size: 1.5rem;
+  color: #2780e3;
+  border-bottom: 2px solid #2780e3;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+  margin-top: 2rem;
+}
+
+.about-section h2:first-of-type {
+  margin-top: 0;
+}
+
+.about-card {
   background-color: #f8f9fa;
-  padding: 1.5em;
+  padding: 1.5rem;
   border-radius: 8px;
   border-left: 4px solid #2780e3;
+  margin-bottom: 1.5rem;
 }
 
-.info-card h3 {
+.about-card p {
+  line-height: 1.7;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.about-card p:last-child {
+  margin-bottom: 0;
+}
+
+.about-card ul {
+  line-height: 1.7;
+  color: #555;
+  margin-bottom: 0;
+}
+
+.timeline-item {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.timeline-item:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.timeline-year {
+  min-width: 80px;
+  font-weight: 700;
+  color: #2780e3;
+  font-size: 1em;
+}
+
+.timeline-content {
+  flex: 1;
+}
+
+.timeline-content h3 {
   margin-top: 0;
+  margin-bottom: 0.5rem;
+  color: #333;
   font-size: 1.1em;
-  color: #2780e3;
-  border-bottom: 1px solid #dee2e6;
-  padding-bottom: 0.5em;
-  margin-bottom: 1em;
 }
 
-.quick-links {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
-  padding: 1.5em;
-  border-radius: 8px;
-  text-align: center;
-}
-
-.quick-links a {
-  color: white;
-  text-decoration: none;
-  margin: 0 0.5em;
-  padding: 0.3em 0.6em;
-  border-radius: 4px;
-  transition: background-color 0.3s;
-  display: inline-block;
-  margin-top: 0.5em;
-}
-
-.quick-links a:hover {
-  background-color: rgba(255,255,255,0.2);
-}
-
-.recent-news {
-  background-color: #f0f7ff;
-  padding: 1.5em;
-  border-radius: 8px;
-  margin-bottom: 2em;
-}
-
-.recent-news ul {
-  margin-bottom: 0;
-  padding-left: 1.5em;
-}
-
-.news-item {
-  margin-bottom: 1em;
+.timeline-content p {
+  color: #666;
+  margin: 0;
   line-height: 1.6;
-  color: #444;
 }
 
-.news-item:last-child {
-  margin-bottom: 0;
-}
-
-.news-date {
-  font-weight: 600;
-  color: #2780e3;
-  margin-right: 0.5em;
-}
-
-.education-item {
-  margin-bottom: 1.5em;
-}
-
-.education-item:last-child {
-  margin-bottom: 0;
-}
-
-.honor-item, .service-item, .teaching-item {
-  margin-bottom: 0.8em;
-  padding-left: 0.5em;
-}
-
-.honor-item:last-child, .service-item:last-child, .teaching-item:last-child {
-  margin-bottom: 0;
+@media (max-width: 768px) {
+  .timeline-item {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .timeline-year {
+    min-width: auto;
+  }
 }
 </style>
 
-<div class="homepage-container">
+<div class="about-content">
 
-<div class="profile-header">
-  <img src="assets/images/myz.png" alt="Avatar" class="profile-image">
-  <h1 style="margin-bottom: 0.3em;">Mingyuan (William) Zhang</h1>
-  <h2 style="font-size: 1.2em; color: #666; font-weight: normal; margin-top: 0;">张明远</h2>
-  <p style="color: #555; font-size: 1.1em; max-width: 700px; margin: 1.5em auto; line-height: 1.7;">
-    Ph.D. in Computer Science from the <a href="https://www.upenn.edu/" target="_blank">University of Pennsylvania</a>, specializing in machine learning and artificial intelligence. 
-    Currently working on large language models, agents, and recommendation systems in the tech industry.
-  </p>
-</div>
+## 👋 About Me
 
-<div class="main-content">
+I am currently working in the tech industry, focusing on machine learning, artificial intelligence, large language models, agents, and recommendation systems.
 
-<div class="quick-links">
-  <strong style="font-size: 1.1em;">Quick Links</strong><br>
-  <a href="about.html">👤 About</a>
-  <a href="publications.html">📚 Publications</a>
-  <a href="https://www.linkedin.com/in/mingyuanzhang" target="_blank">💼 LinkedIn</a>
-  <a href="https://scholar.google.com/citations?user=0mAq5yUAAAAJ" target="_blank">🔬 Scholar</a>
-  <a href="https://github.com/mingyuan-zh" target="_blank">💻 GitHub</a>
-</div>
+I obtained my Ph.D. in [Computer and Information Science](https://www.cis.upenn.edu/) from the [University of Pennsylvania](https://www.upenn.edu/), where I worked on statistical machine learning for complex classification problems.
 
-## Recent News
+Prior to my Ph.D., I completed my undergraduate studies at the [University of Michigan](https://umich.edu/), where I earned degrees in Honors Mathematics, Honors Statistics, Computer Science, and Data Science.
 
-<div class="recent-news">
-<ul>
-</ul>
-</div>
+## 🎓 Education
 
+::: {.timeline-item}
+::: {.timeline-year}
+2024
+:::
+::: {.timeline-content}
+### Ph.D. in Computer and Information Science
 
-</div>
+University of Pennsylvania  
+Dissertation: *Statistical Machine Learning for Complex Classification Problems*
+:::
+:::
+
+::: {.timeline-item}
+::: {.timeline-year}
+2018
+:::
+::: {.timeline-content}
+### B.S. in Honors Mathematics, Honors Statistics, Computer Science, and Data Science
+
+University of Michigan
+:::
+:::
+
+## 🔬 Research Interests
+
+My doctoral research focused on **statistical machine learning** for complex classification problems, with particular emphasis on:
+
+- **Learning from Noisy Labels**: Designing algorithms that can learn good classifiers despite noisy training data, for both multiclass and multi-label learning problems
+- **Multi-Label Classification & Label Ranking**: Developing effective learning algorithms for multi-label losses and various label ranking metrics
+- **Non-decomposable Performance Measures**: Optimizing complex performance measures (F1, AUC, etc.) that cannot be decomposed per example
+- **Weakly Supervised Learning**: Learning from missing or partial labels, and transfer learning
+
+## 🏆 Honors & Awards
+
+- **Top Reviewer**, NeurIPS, 2024
+- **Outstanding Achievement in Mathematics Awards**, University of Michigan, 2017, 2018
+- **James B. Angell Scholar**, University of Michigan, 2015, 2017, 2018
+- **William J. Branstrom Freshman Prize**, University of Michigan, 2014
+- **University Honors**, University of Michigan, 2013 - 2018
+
+## 👥 Professional Service
+
+**Journal Reviewer:** JMLR, IEEE TPAMI
+
+**Conference Reviewer:** NeurIPS (2021-2024), ICLR (2022-2023), AISTATS (2024)
+
+## 📖 Teaching
+
+**University of Pennsylvania:** Head TA for CIS 520 (Graduate Machine Learning), Spring 2020, 2021, 2022
+
+**University of Michigan:** Grader (2015-2018), Tutor for MATH 217 (2015)
 
 </div>

@@ -14,8 +14,6 @@ website:
     left:
       - href: index.html
         text: Home
-      - href: about.html
-        text: About
       - href: publications.html
         text: Publications
       - href: research-notes/index.html
