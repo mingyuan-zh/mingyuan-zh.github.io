@@ -128,8 +128,8 @@ toc: false
   <h1 style="margin-bottom: 0.3em;">Mingyuan (William) Zhang</h1>
   <h2 style="font-size: 1.2em; color: #666; font-weight: normal; margin-top: 0;">张明远</h2>
   <p style="color: #555; font-size: 1.1em; max-width: 700px; margin: 1.5em auto; line-height: 1.7;">
-    Ph.D. in Computer Science from the <a href="https://www.upenn.edu/" target="_blank">University of Pennsylvania</a>. 
-    Currently working on machine learning, AI, and large language models in the tech industry.
+    Ph.D. in Computer Science from the <a href="https://www.upenn.edu/" target="_blank">University of Pennsylvania</a>, specializing in machine learning and artificial intelligence. 
+    Currently working on large language models, agents, and recommendation systems in the tech industry.
   </p>
 </div>
 

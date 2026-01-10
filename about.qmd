@@ -110,10 +110,10 @@ title: "About"
 
 <div class="about-card">
 <p>
-I am currently working in the tech industry, focusing on machine learning, artificial intelligence, large language models, and recommendation systems. I am passionate about developing robust and efficient algorithms that can handle real-world challenges in machine learning.
+I am currently working in the tech industry, focusing on machine learning, artificial intelligence, large language models, agents, and recommendation systems.
 </p>
 <p>
-I obtained my Ph.D. in <a href="https://www.cis.upenn.edu/" target="_blank">Computer and Information Science</a> from the <a href="https://www.upenn.edu/" target="_blank">University of Pennsylvania</a>, where I worked on statistical machine learning for complex classification problems. My research focused on learning from noisy labels, multi-label classification, and optimizing non-decomposable performance measures.
+I obtained my Ph.D. in <a href="https://www.cis.upenn.edu/" target="_blank">Computer and Information Science</a> from the <a href="https://www.upenn.edu/" target="_blank">University of Pennsylvania</a>, where I worked on statistical machine learning for complex classification problems.
 </p>
 <p>
 Prior to my Ph.D., I completed my undergraduate studies at the <a href="https://umich.edu/" target="_blank">University of Michigan</a>, where I earned degrees in Honors Mathematics, Honors Statistics, Computer Science, and Data Science.
@@ -146,7 +146,7 @@ Dissertation: <em>Statistical Machine Learning for Complex Classification Proble
 <h2>🔬 Research Interests</h2>
 
 <div class="about-card">
-<p>My research focuses on <strong>statistical machine learning</strong> for complex classification problems, with particular emphasis on:</p>
+<p>My doctoral research focused on <strong>statistical machine learning</strong> for complex classification problems, with particular emphasis on:</p>
 <ul>
 <li><strong>Learning from Noisy Labels</strong>: Designing algorithms that can learn good classifiers despite noisy training data, for both multiclass and multi-label learning problems</li>
 <li><strong>Multi-Label Classification & Label Ranking</strong>: Developing effective learning algorithms for multi-label losses and various label ranking metrics</li>
