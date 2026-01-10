@@ -120,9 +120,10 @@ toc: false
 
 <div class="quick-links">
   <strong style="font-size: 1.1em;">Quick Links</strong><br>
-  <a href="/cv/Zhang_Mingyuan_résumé.pdf" target="_blank">📄 Résumé</a>
-  <a href="publications.html">📚 Publications</a>
   <a href="about.html">👤 About</a>
+  <a href="publications.html">📚 Publications</a>
+  <a href="/cv/Zhang_Mingyuan_résumé.pdf" target="_blank">📄 Résumé</a>
+  <a href="https://www.linkedin.com/in/mingyuanzhang" target="_blank">💼 LinkedIn</a>
   <a href="https://scholar.google.com/citations?user=0mAq5yUAAAAJ" target="_blank">🔬 Scholar</a>
   <a href="https://github.com/mingyuan-zh" target="_blank">💻 GitHub</a>
 </div>
