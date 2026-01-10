@@ -15,8 +15,6 @@ about:
     - icon: github
       text: GitHub
       href: https://github.com/mingyuan-zh
-    bio:
-      test
 toc: false
 page-layout: full
 ---
@@ -192,6 +190,8 @@ University of Michigan
 
 ## 🔬 Research Interests
 
+My current research focuses on large language models, agents, and recommendation systems.
+
 My doctoral research focused on **statistical machine learning** for complex classification problems, with particular emphasis on:
 
 - **Learning from Noisy Labels**: Designing algorithms that can learn good classifiers despite noisy training data, for both multiclass and multi-label learning problems
@@ -201,22 +201,20 @@ My doctoral research focused on **statistical machine learning** for complex cla
 
 ## 🏆 Honors & Awards
 
-- **Top Reviewer**, NeurIPS, 2024
-- **Outstanding Achievement in Mathematics Awards**, University of Michigan, 2017, 2018
-- **James B. Angell Scholar**, University of Michigan, 2015, 2017, 2018
-- **William J. Branstrom Freshman Prize**, University of Michigan, 2014
-- **University Honors**, University of Michigan, 2013 - 2018
+**Top Reviewer**, NeurIPS, 2024
+
+**Outstanding Achievement in Mathematics Awards**, University of Michigan, 2017, 2018
+
+**James B. Angell Scholar**, University of Michigan, 2015, 2017, 2018
+
+**William J. Branstrom Freshman Prize**, University of Michigan, 2014
+
+**University Honors**, University of Michigan, 2013 - 2018
 
 ## 👥 Professional Service
 
 **Journal Reviewer:** JMLR, IEEE TPAMI
 
 **Conference Reviewer:** NeurIPS (2021-2024), ICLR (2022-2023), AISTATS (2024)
-
-## 📖 Teaching
-
-**University of Pennsylvania:** Head TA for CIS 520 (Graduate Machine Learning), Spring 2020, 2021, 2022
-
-**University of Michigan:** Grader (2015-2018), Tutor for MATH 217 (2015)
 
 </div>
