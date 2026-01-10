@@ -75,15 +75,32 @@ toc: false
   background-color: rgba(255,255,255,0.2);
 }
 
-.research-interests {
+.recent-news {
   background-color: #f0f7ff;
   padding: 1.5em;
   border-radius: 8px;
   margin-bottom: 2em;
 }
 
-.research-interests ul {
+.recent-news ul {
   margin-bottom: 0;
+  padding-left: 1.5em;
+}
+
+.news-item {
+  margin-bottom: 1em;
+  line-height: 1.6;
+  color: #444;
+}
+
+.news-item:last-child {
+  margin-bottom: 0;
+}
+
+.news-date {
+  font-weight: 600;
+  color: #2780e3;
+  margin-right: 0.5em;
 }
 
 .education-item {
@@ -122,18 +139,16 @@ toc: false
   <strong style="font-size: 1.1em;">Quick Links</strong><br>
   <a href="about.html">👤 About</a>
   <a href="publications.html">📚 Publications</a>
-  <a href="/cv/Zhang_Mingyuan_résumé.pdf" target="_blank">📄 Résumé</a>
   <a href="https://www.linkedin.com/in/mingyuanzhang" target="_blank">💼 LinkedIn</a>
   <a href="https://scholar.google.com/citations?user=0mAq5yUAAAAJ" target="_blank">🔬 Scholar</a>
   <a href="https://github.com/mingyuan-zh" target="_blank">💻 GitHub</a>
 </div>
 
-## Research Focus
+## Recent News
 
-<div class="research-interests">
-I work on <strong>statistical machine learning</strong> for complex classification problems, including learning from noisy labels, multi-label classification, and optimizing non-decomposable performance measures.
-
-Learn more about my research on the [About](about.html) page, or browse my [Publications](publications.html).
+<div class="recent-news">
+<ul>
+</ul>
 </div>
 
 
