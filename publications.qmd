@@ -2,6 +2,11 @@
 title: "Publications and Manuscripts"
 ---
 
+**Exact Rank and Convex Calibration Dimension Lower Bounds for the Multi-Label F1 Loss.**<br>
+Mingyuan Zhang.<br>
+Preprint, 2026.<br>
+[[link](https://arxiv.org/abs/2608.08399)]<br>
+
 **Convex Calibrated Output Coding Surrogates for Low-Rank Loss Matrices, with Applications to Multi-Label Learning.**<br>
 Harish G. Ramaswamy\*, Mingyuan Zhang\*, Shivani Agarwal, Robert C. Williamson.<br>
 In preparation, 2025.<br>
