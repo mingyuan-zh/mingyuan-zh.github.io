@@ -167,7 +167,7 @@ main.content {
 
 ## 👋 About Me
 
-I am currently working in the tech industry, focusing on machine learning, artificial intelligence, large language models, agents, and recommendation systems.
+I am currently working in the tech industry, building reliable AI agent systems.
 
 I obtained my Ph.D. in [Computer and Information Science](https://www.cis.upenn.edu/) from the [University of Pennsylvania](https://www.upenn.edu/), where I worked on statistical machine learning for complex classification problems.
 
@@ -200,7 +200,7 @@ University of Michigan
 
 ## 🔬 Research Interests
 
-My current research focuses on large language models, agents, and recommendation systems.
+My current research focuses on large language models and agents.
 
 My doctoral research focused on **statistical machine learning** for complex classification problems, with particular emphasis on:
 
