@@ -2,6 +2,11 @@
 title: "Publications and Manuscripts"
 ---
 
+**Exponential Convex Calibration Dimension for the Multi-Label Jaccard Measure.**<br>
+Mingyuan Zhang.<br>
+Preprint, 2026.<br>
+[[link](https://arxiv.org/abs/2608.13549)]<br>
+
 **Exact Rank and Convex Calibration Dimension Lower Bounds for the Multi-Label F1 Loss.**<br>
 Mingyuan Zhang.<br>
 Preprint, 2026.<br>
