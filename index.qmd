@@ -11,7 +11,7 @@ about:
       href: https://www.linkedin.com/in/mingyuanzhang
     - icon: mortarboard-fill
       text: Google Scholar
-      href: https://scholar.google.com/citations?user=0mAq5yUAAAAJ
+      href: https://scholar.google.com/citations?hl=en&user=0mAq5yUAAAAJ&view_op=list_works&sortby=pubdate
     - icon: github
       text: GitHub
       href: https://github.com/mingyuan-zh
