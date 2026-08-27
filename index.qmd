@@ -14,7 +14,7 @@ about:
       href: https://scholar.google.com/citations?hl=en&user=0mAq5yUAAAAJ&view_op=list_works&sortby=pubdate
     - icon: github
       text: GitHub
-      href: https://github.com/mingyuan-zh
+      href: https://github.com/zmydev
 toc: false
 page-layout: full
 ---
