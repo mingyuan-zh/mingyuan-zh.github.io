@@ -1,7 +1,8 @@
-# Quarto
-_site/
-.quarto/
-**/*.quarto_ipynb
+# Hugo
+/public/
+/resources/_gen/
+/.hugo_build.lock
+hugo_stats.json
 
 # OS
 .DS_Store
@@ -12,9 +13,8 @@ Thumbs.db
 .idea/
 *.sublime-project
 *.sublime-workspace
+.claude/
 
 # Logs
 log/
 *.log
-
-/.quarto/
