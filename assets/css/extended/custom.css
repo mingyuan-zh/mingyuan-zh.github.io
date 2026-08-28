@@ -6,7 +6,8 @@
     margin-bottom: var(--gap);
 }
 
-.intro-avatar {
+/* `.md-content img` (0,1,1) outranks a bare `.intro-avatar` (0,1,0), so match it here. */
+.md-content img.intro-avatar {
     border-radius: 50%;
     flex-shrink: 0;
 }
@@ -14,10 +15,6 @@
 .intro-text {
     flex: 1;
     min-width: 0;
-}
-
-.intro-text > p:first-child {
-    margin-top: 0;
 }
 
 @media (max-width: 600px) {
