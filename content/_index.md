@@ -7,7 +7,7 @@ title: "Mingyuan (William) Zhang"
   <div class="intro-text">
 
 <h1 class="intro-name">Mingyuan (William) Zhang</h1>
-<p class="intro-role">Building reliable AI agent systems</p>
+<p class="intro-role">Lifelong learner and builder.</p>
  {{< social >}}
   </div>
 </div>
