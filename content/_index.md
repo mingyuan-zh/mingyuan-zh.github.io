@@ -1,12 +1,12 @@
 ---
-title: "Mingyuan (William) Zhang"
+title: "Mingyuan (Ming) Zhang"
 ---
 
 <div class="intro">
   <img class="intro-avatar" src="/images/profile.png" alt="Mingyuan Zhang" width="180" height="180">
   <div class="intro-text">
 
-<h1 class="intro-name">Mingyuan (William) Zhang</h1>
+<h1 class="intro-name">Mingyuan (Ming) Zhang</h1>
 <p class="intro-role">Lifelong learner and builder.</p>
  {{< social >}}
   </div>

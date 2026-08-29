@@ -18,7 +18,7 @@ minify:
 params:
   env: production # enables analytics/OpenGraph/Twitter-cards
   title: "Mingyuan Zhang"
-  description: "Personal website of Mingyuan (William) Zhang — building reliable AI agent systems; Ph.D. in Computer and Information Science, University of Pennsylvania."
+  description: "Personal website of Mingyuan (Ming) Zhang — building reliable AI agent systems; Ph.D. in Computer and Information Science, University of Pennsylvania."
   keywords: [Machine Learning, Large Language Models, AI Agents, Reinforcement Learning]
   author: "Mingyuan Zhang"
   DateFormat: "January 2, 2006"
